@@ -13,8 +13,10 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank
-    private String name;
+   @NotBlank
+    private String name; //lista przekazana w kontrolerze, więc po co tutaj name? Chyba, że tworzymy klasę Categories(id + name)  i listę obiektów?
+
+
 
     public Long getId() {
         return id;

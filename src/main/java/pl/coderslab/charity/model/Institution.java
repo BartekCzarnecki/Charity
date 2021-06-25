@@ -1,7 +1,5 @@
 package pl.coderslab.charity.model;
 
-
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,7 +8,7 @@ import javax.validation.constraints.NotBlank;
 
 @Entity
 public class Institution {
-
+    //lista obiektów do formularza 3
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
